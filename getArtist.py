@@ -6,6 +6,7 @@ import time
 # Get bearer token info from requestToken.py
 tokenInfo = requestAccessToken()
 bearerToken = tokenInfo['access_token']
+print(bearerToken)
 
 # Logging of artist info
 logger = logging.getLogger(__name__)
