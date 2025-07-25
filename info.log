@@ -1,0 +1,22 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.spotify.com:443
+DEBUG:urllib3.connectionpool:https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.spotify.com:443
+DEBUG:urllib3.connectionpool:https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.spotify.com:443
+DEBUG:urllib3.connectionpool:https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+07/24/2025 11:02:25 AM Starting new HTTPS connection (1): api.spotify.com:443
+07/24/2025 11:02:25 AM https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+07/24/2025 11:02:25 AM Starting new HTTPS connection (1): api.spotify.com:443
+07/24/2025 11:02:26 AM https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+07/24/2025 11:02:26 AM Starting new HTTPS connection (1): api.spotify.com:443
+07/24/2025 11:02:26 AM https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+07/24/2025 11:04:19 AM Starting new HTTPS connection (1): api.spotify.com:443
+07/24/2025 11:04:19 AM https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+07/24/2025 11:04:19 AM Starting new HTTPS connection (1): api.spotify.com:443
+07/24/2025 11:04:19 AM https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+07/24/2025 11:04:19 AM Starting new HTTPS connection (1): api.spotify.com:443
+07/24/2025 11:04:20 AM https://api.spotify.com:443 "GET /v1/artists/0TnOYISbd1XYRBk9myaseg HTTP/1.1" 200 None
+07/25/2025 01:32:21 PM Pitbull has 11713159 followers on Spotify.
+07/25/2025 13:35:05 Pacific Daylight Time +0 Pitbull has 11713159 followers on Spotify.
+07/25/2025 13:35:30 Pacific Daylight Time UTC Pitbull has 11713159 followers on Spotify.
+07/25/2025 20:43:24 Pitbull has 11713159 followers on Spotify.
