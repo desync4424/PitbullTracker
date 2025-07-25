@@ -8,13 +8,9 @@ logging.basicConfig(filename='info.log', encoding='utf-8',
     datefmt='%m/%d/%Y %H:%M:%S')
 
 def requestAccessToken():
-    try:
-        CLIENT_ID = os.environ["CLIENT_ID"]
-        CLIENT_SECRET = os.environ["CLIENT_SECRET"]
-    except KeyError:
-        CLIENT_ID = "Client ID not available"
-        CLIENT_SECRET = "Client Secret not available"
-        logger.info(f"Token value: {CLIENT_ID}")
+    CLIENT_ID = os.environ["CLIENT_ID"]
+    CLIENT_SECRET = os.environ["CLIENT_SECRET"]
+
 
     url = 'https://accounts.spotify.com/api/token'
     payload = {'grant_type': 'client_credentials',

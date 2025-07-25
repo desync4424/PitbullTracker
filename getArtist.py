@@ -6,7 +6,6 @@ import time
 # Get bearer token info from requestToken.py
 tokenInfo = requestAccessToken()
 bearerToken = tokenInfo['access_token']
-print(bearerToken)
 
 # Logging of artist info
 logger = logging.getLogger(__name__)
@@ -31,9 +30,8 @@ def getArtistData(bearerToken):
 def getArtistFollowers():
     artist = getArtistData(bearerToken)['name']
     followers = getArtistData(bearerToken)['followers']['total']
-    result = artist + ' has ' + str(followers) + ' followers on Spotify.'
-    logger.info(result)
-    return result
+    logger.info(artist + ' has ' + str(followers) + ' followers on Spotify.')
+    return
 
 
 if __name__ == "__main__":
